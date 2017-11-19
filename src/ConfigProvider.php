@@ -81,9 +81,7 @@ class ConfigProvider
             //Middleware
             JwtMiddleware::class => JwtMiddlewareFactory::class,
             MeMiddleware::class => MeMiddlewareFactory::class,
-
-            // Laravel validator
-            Factory::class => ValidatorFactory::class,
+            
             // by interfaces
             AuthenticationInterface::class => AuthenticationFactory::class,
             AuthProviderInterface::class => AuthProviderFactory::class,
