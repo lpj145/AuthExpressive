@@ -27,11 +27,6 @@ interface AuthenticationInterface
      * @param $identifier
      * @return mixed
      */
-    public function logout($identifier) : void;
-    /**
-     * @param $identifier
-     * @return mixed
-     */
     public function getFromStorage($identifier);
     /**
      * @param UserInterface $user

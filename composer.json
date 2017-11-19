@@ -1,5 +1,5 @@
 {
-  "name": "marcosdantas/AuthExpressive",
+  "name": "marcosadantas/authexpressive",
   "description": "Manager users and jwt on zend expressive 2",
   "minimum-stability": "dev",
   "license": "MIT",
