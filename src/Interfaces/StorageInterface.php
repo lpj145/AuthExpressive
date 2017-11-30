@@ -1,8 +1,10 @@
 <?php
 namespace AuthExpressive\Interfaces;
 
-use Psr\SimpleCache\CacheInterface;
-
-interface StorageInterface extends CacheInterface
+interface StorageInterface
 {
+    public function set($key, $value);
+    public function get($key);
+    public function has($key):bool;
+    public function delete($key);
 }
